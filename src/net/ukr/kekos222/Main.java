@@ -16,9 +16,7 @@ public class Main {
                 new File(40)
         );
 
-        root.add(d1);
-        root.add(d2);
-        root.add(new File(50));
+        root.add(d1).add(d2).add(new File(50));
 
         System.out.println(root.getSize());
     }

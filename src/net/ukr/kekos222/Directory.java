@@ -16,10 +16,11 @@ public class Directory implements Objects {
         }
     }
 
-    public void add(Objects obj) {
+    public Directory add(Objects obj) {
         if (obj != this) {
             dir.add(obj);
         }
+        return this;
     }
 
     public int getSize() {
